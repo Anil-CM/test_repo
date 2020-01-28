@@ -11,7 +11,7 @@ data "ibm_resource_group" "resource_group" {
 }
 
 resource "ibm_container_vpc_cluster" "cluster" {
-  name              = "us-test-1"
+  name              = "us-test-2"
   vpc_id            = "71ac0bbb-008e-46b1-96d3-66741c163a46"
   flavor            = var.flavor
   worker_count      = var.worker_count
